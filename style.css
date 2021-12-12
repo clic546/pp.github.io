@@ -1,0 +1,103 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+body {
+    font-family:sans-serif;
+    color: rgb(72, 247, 3);
+    background:linear-gradient(rgba(0, 0, 0, 0.4), rgba( 0, 0, 0, 0.4)), url(pizza-pattern_185029-393.jpg);
+    font-family: URW Chancery L, cursive;
+}
+h1 {
+    text-align: center;
+    margin-right: 50px;
+    font-size: 60px;
+    color: rgb(229, 255, 0);
+}
+fieldset {
+    width: 550px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 1200px;
+    border: 2px solid rgba(167, 167, 167, 0.747);
+}
+.piza1 {
+    width: 350px;
+    height: 350px;
+}
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+.final {
+    width: 130px;
+    height: 50px;
+    font-size: 20px;
+    cursor:pointer;
+    background: white;
+}
+.final:hover {
+    transition: 0.4s;
+    background: rgb(96, 238, 108);
+   -webkit-box-shadow: 0px 0px 66px -6px rgba(255, 255, 255, 0.56);
+    -moz-box-shadow: 0px 0px 66px -6px rgba(255, 255, 255, 0.56);
+    box-shadow: 0px 0px 66px -6px rgba(255, 255, 255, 0.56);
+}
+.img {
+    margin-top: -750px;
+    margin-left: 150px;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.a {
+    margin-left: 25px;
+}
+.block12 {
+    width:450px;
+    height: 75px;
+    font-size: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.H12 {
+    font-size: 30px;    
+}
+.block123 {
+    width: 450px;
+    height: 60px;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.b {
+    margin-left: 55px;
+}
+.block2 {
+    margin-left: -80px;
+}
+.ac {
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    font-size: 23px;
+    width:180px;
+    height: 50px;
+    padding: 10px;
+    margin-top: -900px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ac:hover {
+    color:white;
+    border-color: white;
+}
